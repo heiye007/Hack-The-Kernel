@@ -1,0 +1,2742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shared"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared">
+				<Option output="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/shared" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/."/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/types"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/userland"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/sys161/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/platform"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/sys161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/types"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/randcall"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared/fast">
+				<Option output="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/shared" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/."/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/types"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/userland"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/sys161/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/kern/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/platform"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/sys161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test161"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/types"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/randcall"/>
+					<Add directory="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/CHANGES">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/hostcompat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips/regdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/hostinclude/kern/mips/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/assert.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/err.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/errno.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/fcntl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/errmsg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/errno.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/fcntl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/ioctl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/iovec.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/limits.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips/regdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/mips/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/reboot.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/resource.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/secret.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/secure.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/seek.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/sfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/socket.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/stat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/stattypes.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/syscall.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/test161.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/time.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/unistd.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/kern/wait.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/limits.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/stdarg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/stdbool.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/stdint.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/stdio.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/stdlib.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/string.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/cdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/ioctl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/null.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/reboot.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/stat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/sys/wait.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test/quint.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test/test.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test/triple.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test161/secure.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/test161/test161.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/time.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/types/size_t.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/install/include/unistd.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/build/userland/testbin/randcall/calls.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/adddi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/anddi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/ashldi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/ashrdi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/cmpdi2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/divdi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/iordi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/longlong.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/lshldi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/lshrdi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/moddi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/muldi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/negdi2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/notdi2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/qdivrem.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/subdi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/ucmpdi2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/udivdi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/umoddi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/gcc-millicode/xordi3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/printf/__printf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/printf/snprintf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/printf/tprintf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/stdlib/atoi.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/bzero.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/memcpy.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/memmove.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/memset.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strcat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strchr.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strcmp.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strcpy.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strlen.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strrchr.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libc/string/strtok_r.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161/config.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161/secure.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161/sha256.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161/sha256.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/common/libtest161/test161.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/configure">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/defs.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/current.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/elf.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern/regdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/kern/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/membar.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/specialreg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/spinlock.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/thread.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/tlb.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/trapframe.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/include/vm.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/locore/trap.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/syscall/syscall.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread/cpu.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread/switchframe.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread/switchframe.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/thread/thread_machdep.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/vm/dumbvm.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/mips/vm/ram.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/sys161/dev/lamebus_machdep.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/sys161/include/bus.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/arch/sys161/include/maxcpus.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/autoconf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/autoconf.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern/regdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/machine/kern/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern/regdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/includelinks/mips/kern/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-automationtest.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-dumbvm.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-hangman.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-net.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-netfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-noasserts.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-semfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-sfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/opt-synchprobs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/compile/DUMBVM/vers.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/ASST1">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/ASST2">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/ASST3">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/DUMBVM">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/DUMBVM-OPT">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/GENERIC">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/GENERIC-OPT">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/conf.kern">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/config">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/conf/newvers.sh">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/beep.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/beep.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/console.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/console.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/random.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/random.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/rtclock.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/generic/rtclock.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/beep_ltimer.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/con_lscreen.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/con_lser.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/emu.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/emu.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/emu_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lamebus.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lamebus.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lhd.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lhd.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lhd_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lnet.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lnet_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lrandom.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lrandom.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lrandom_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lscreen.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lscreen.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lscreen_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lser.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lser.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/lser_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltimer.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltimer.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltimer_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltrace.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltrace.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/ltrace_att.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/random_lrandom.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/dev/lamebus/rtclock_ltimer.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs/semfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs/semfs_fsops.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs/semfs_obj.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/semfs/semfs_vnops.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_balloc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_bmap.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_dir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_fsops.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_inode.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_io.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfs_vnops.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/fs/sfs/sfsprivate.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/gdbscripts/array">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/gdbscripts/mips-userland">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/gdbscripts/wchan">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/addrspace.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/array.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/bitmap.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/cdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/clock.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/copyinout.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/cpu.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/current.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/device.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/elf.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/emufs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/fs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/hangman.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/errmsg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/errno.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/fcntl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/ioctl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/iovec.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/limits.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/reboot.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/resource.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/secret.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/secure.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/seek.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/sfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/socket.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/stat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/stattypes.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/syscall.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/test161.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/time.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/unistd.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/kern/wait.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/lib.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/limits.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/mainbus.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/membar.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/proc.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/prompt.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/sfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/spinlock.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/spl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/stat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/stdarg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/synch.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/syscall.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/test.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/thread.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/threadlist.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/threadprivate.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/uio.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/version.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/vfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/vm.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/vnode.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/include/wchan.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/array.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/bitmap.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/bswap.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/kgets.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/kprintf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/misc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/time.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/lib/uio.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/main/main.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/main/menu.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/proc/proc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/synchprobs/stoplight.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/synchprobs/whalemating.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/syscall/loadelf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/syscall/runprogram.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/syscall/time_syscalls.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/arraytest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/automationtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/bitmaptest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/fstest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/hmacunit.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/kmalloctest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/lib.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/nettest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/rwtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/semunit.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/synchprobs.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/synchtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/threadlisttest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/threadtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/test/tt3.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/clock.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/hangman.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/spinlock.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/spl.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/synch.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/thread.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/thread/threadlist.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/device.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/devnull.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vfscwd.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vfsfail.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vfslist.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vfslookup.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vfspath.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vfs/vnode.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vm/addrspace.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vm/copyinout.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/kern/vm/kmalloc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/cat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/cp.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/false.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/ln.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/ls.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/mkdir.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/mv.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/pwd.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/rm.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/rmdir.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/sh.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/sync.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/tac.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/bin/true.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/beep.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/con.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/emu.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lamebus.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lhd.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lnet.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lrandom.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lscreen.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/lser.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/ltimer.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/ltrace.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/null.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/random.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/dev/rtclock.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/__vprintf.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/abort.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/assert.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/atoi.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/bzero.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/calloc.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/err.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/execvp.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/exit.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/free.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/getchar.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/getcwd.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/getenv.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/malloc.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/memcmp.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/memcpy.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/memmove.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/memset.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/printf.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/putchar.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/puts.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/random.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/realloc.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/setjmp.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/snprintf.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/stdarg.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strcat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strchr.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strcmp.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strcpy.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strerror.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strlen.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strrchr.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strtok.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/strtok_r.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/system.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/time.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/libc/warn.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/man.css">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/manindex.css">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/misc/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/misc/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/misc/semfs.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/dumpsfs.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/halt.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/mksfs.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/poweroff.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/reboot.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/sbin/sfsck.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/__getcwd.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/__time.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/_exit.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/chdir.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/close.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/dup2.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/errno.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/execv.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/fork.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/fstat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/fsync.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/ftruncate.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/getdirentry.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/getpid.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/ioctl.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/link.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/lseek.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/lstat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/mkdir.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/open.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/pipe.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/read.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/readlink.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/reboot.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/remove.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/rename.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/rmdir.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/sbrk.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/stat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/symlink.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/sync.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/waitpid.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/syscall/write.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/add.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/argtest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/badcall.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/bigexec.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/bigfile.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/bigfork.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/bigseek.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/bloat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/conman.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/crash.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/ctest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/dirconc.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/dirseek.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/dirtest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/f_test.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/factorial.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/farm.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/faulter.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/filetest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/forkbomb.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/forktest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/frack.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/guzzle.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/hash.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/hog.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/huge.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/index.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/kitchen.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/malloctest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/matmult.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/multiexec.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/palin.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/parallelvm.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/poisondisk.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/psort.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/quinthuge.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/quintmat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/quintsort.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/randcall.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/redirect.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/rmdirtest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/rmtest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/sbrktest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/schedpong.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/sink.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/sort.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/sparsefile.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/sty.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/tail.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/tictac.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/triplehuge.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/triplemat.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/triplesort.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/usemtest.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/userthreads.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/man/testbin/zero.html">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/fixdepends.sh">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/installheaders.sh">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.baserules.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.compile.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.config-mips.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.config.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.hostcompile.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.hostlib.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.hostprog.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.includes.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.kernel.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.lib.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.man.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.mkdirs.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.prog.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.script.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/mk/os161.subdir.mk">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/commands/asst2.tc">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/commands/coremap.tc">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/commands/misc.tc">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/commands/sync.tc">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/commands/vm.tc">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tags/all.td">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst1.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst2-single.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst2.1.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst2.2.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst2.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst3.1.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst3.2.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst3.3.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/targets/asst3.tt">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/boot.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/coremap-loose.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/coremap-tight.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/km1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/km2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/km3.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/km4.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/coremap/not-dumbvm.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-close.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-dup2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-execv.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-lseek.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-open.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-read.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-waitpid.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/badcall/badcall-write.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/crash/crash-allS.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/crash/crash-template">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/crash/script.py">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/faulter.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/forkbomb.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/forktest-stability.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/stability/randcall.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/cvt1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/cvt2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/cvt3.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/cvt4.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/cvt5.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/lt1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/lt2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/lt3.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/rwt1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/rwt2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/rwt3.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/rwt4.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/rwt5.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synch/sem1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synchprobs/sp1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/synchprobs/sp2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/add.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/argtest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/bigexec.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/closetest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/consoletest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/factorial.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/fileonlytest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/forktest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/opentest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/readwritetest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/redirect.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/shell.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/syscalls/sparsefile.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/threads/tt1.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/threads/tt2.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/threads/tt3.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/bigfork.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/ctest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/matmult.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/not-dumbvm-vm.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/palin.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/parallelvm.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/quinthuge.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/quintmat.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/quintsort.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/sbrk-badcall.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/sbrktest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/sort.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/stability/forkbomb.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/stability/vm-stability.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/stacktest.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/bigfork-32.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/bigfork.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/matmult.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/parallelvm-32.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/parallelvm.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/quinthuge.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/quintmat.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/quintsort.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/swap/sort.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/test161/tests/vm/zero.t">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/Makefile">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/cat/cat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/cp/cp.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/false/false.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/ln/ln.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/ls/ls.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/mkdir/mkdir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/mv/mv.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/pwd/pwd.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/rm/rm.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/rmdir/rmdir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/sh/sh.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/sync/sync.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/tac/tac.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/bin/true/true.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/assert.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/err.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/errno.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/fcntl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/limits.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/setjmp.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/signal.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/stdarg.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/stdbool.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/stdint.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/stdio.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/stdlib.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/string.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/cdefs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/endian.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/ioctl.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/null.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/reboot.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/stat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/types.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/sys/wait.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test/quint.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test/test.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test/triple.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test161/secure.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/test161/test161.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/time.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/types/size_t.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/include/unistd.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/err.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/host-err.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/hostcompat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/hostcompat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/ntohll.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/hostcompat/time.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdio/__puts.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdio/getchar.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdio/printf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdio/putchar.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdio/puts.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/abort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/exit.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/getenv.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/malloc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/qsort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/random.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/stdlib/system.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/string/memcmp.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/string/strerror.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/string/strtok.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/time/time.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/unix/__assert.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/unix/err.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/unix/errno.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/unix/execvp.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libc/unix/getcwd.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libtest/quint.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/lib/libtest/triple.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/dumpsfs/dumpsfs.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/halt/halt.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs/disk.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs/disk.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs/mksfs.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs/support.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/mksfs/support.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/poweroff/poweroff.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/reboot/reboot.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/compat.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/freemap.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/freemap.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/ibmacros.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/inode.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/inode.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/main.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/main.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/pass1.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/pass2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/passes.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/sb.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/sb.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/sfs.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/sfs.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/utils.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/sbin/sfsck/utils.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/add/add.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/argtest/argtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_chdir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_close.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_dup2.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_execv.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_fsync.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_ftruncate.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_getcwd.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_getdirentry.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_ioctl.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_link.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_lseek.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_mkdir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_open.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_pipe.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_read.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_readlink.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_reboot.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_remove.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_rename.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_rmdir.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_sbrk.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_stat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_symlink.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_time.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_waitpid.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/bad_write.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/common_buf.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/common_fds.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/common_path.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/config.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/driver.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/report.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/badcall/test.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/bigexec/bigexec.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/bigfile/bigfile.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/bigfork/bigfork.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/bigseek/bigseek.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/bloat/bloat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/closetest/closetest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/conman/conman.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/consoletest/consoletest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/crash/crash.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/ctest/ctest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/dirconc/dirconc.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/dirseek/dirseek.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/dirtest/dirtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test/f_hdr.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test/f_read.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test/f_test.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/f_test/f_write.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/factorial/factorial.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/farm/farm.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/faulter/faulter.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/fileonlytest/fileonlytest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/filetest/filetest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/forkbomb/forkbomb.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/forktest/forktest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/check.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/check.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/data.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/data.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/do.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/do.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/main.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/main.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/name.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/name.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/ops.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/ops.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/pool.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/pool.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/workloads.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/frack/workloads.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/guzzle/guzzle.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/hash/hash.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/hog/hog.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/huge/huge.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/kitchen/kitchen.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/malloctest/malloctest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/matmult/matmult-orig.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/matmult/matmult.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/multiexec/multiexec.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/opentest/opentest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/palin/palin.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/parallelvm/parallelvm.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/poisondisk/poisondisk.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/psort/psort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/quinthuge/quinthuge.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/quintmat/quintmat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/quintsort/quintsort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/randcall/extern.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/randcall/main.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/readwritetest/readwritetest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/redirect/redirect.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/rmdirtest/rmdirtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/rmtest/rmtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/sbrktest/sbrktest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/grind.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/main.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/pong.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/results.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/results.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/tasks.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/think.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/usem.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/schedpong/usem.h">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/shelltest/shelltest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/shll/shll.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/sink/sink.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/sort/sort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/sparsefile/sparsefile.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/spinner/spinner.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/stacktest/stacktest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/sty/sty.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/tail/tail.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/tictac/tictac.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/triplehuge/triplehuge.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/triplemat/triplemat.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/triplesort/triplesort.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/usemtest/usemtest.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/userthreads/userthreads.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/waiter/waiter.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/userland/testbin/zero/zero.c">
+			<Option target="shared"/>
+		</Unit>
+		<Unit filename="/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
