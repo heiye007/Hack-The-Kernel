@@ -1,6 +1,13 @@
 # Hack The Kernel
 
-Implementation of Synchronization primitives, System calls, Memory management and File system in the Educational **OS161** operating system.
+Implementation of Synchronization primitives, System calls, Scheduler, Memory management and File system in the Educational **OS161** operating system.
+
+## ROADMAP
+- [ ] Implementation of Sleep lock - In Progress.
+- [ ] Implementation of System calls.
+- [ ] Implementation of Scheduler.
+- [ ] Implementation of Virtual memory.
+- [ ] Implementation of File system.
 
 ## License
 
