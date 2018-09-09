@@ -156,7 +156,15 @@ lock_create(const char *name)
 
 	HANGMAN_LOCKABLEINIT(&lock->lk_hangman, lock->lk_name);
 
-	// add stuff here as needed
+	lock -> lock_wchan = wchan_create(lock -> lk_name);
+	if(lock -> lock_wchan == NULL) {
+		kfree(lock -> lk_name);
+		kfree(lock);
+		return NULL;
+	}
+
+	spinlock_init(&lock->lock_spinlock);
+	lock -> held = 0; // create the lock with no thread holding it.
 
 	return lock;
 }
@@ -166,8 +174,8 @@ lock_destroy(struct lock *lock)
 {
 	KASSERT(lock != NULL);
 
-	// add stuff here as needed
-
+	spinlock_cleanup(&lock -> lock_spinlock);
+	wchan_destroy(lock -> lock_wchan);
 	kfree(lock->lk_name);
 	kfree(lock);
 }
