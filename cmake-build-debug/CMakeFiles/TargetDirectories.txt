@@ -1,3 +1,0 @@
-/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/srv_twry/work/Online-Courses/OS-161/vagrant/shared/cmake-build-debug/CMakeFiles/shared.dir
