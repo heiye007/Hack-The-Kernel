@@ -196,7 +196,8 @@ lock_acquire(struct lock *lock)
     spinlock_acquire(&lock->lock_spinlock);
 
     while(lock -> lk_thread) {
-        wchan_sleep(lock->lock_wchan, &lock->lock_spinlock);
+    	spinlock_release(&lock ->lock_spinlock); // release the spinlock before going to sleep.
+        wchan_sleep(lock->lock_wchan, &lock->lock_spinlock);  // this aquires the lock automatically.
     }
 
     KASSERT(!(lock -> lk_thread));
@@ -258,7 +259,7 @@ cv_create(const char *name)
 		return NULL;
 	}
 
-	// add stuff here as needed
+	threadlist_init(&cv->cv_threads); // initialise the list of threads as empty.
 
 	return cv;
 }
@@ -268,7 +269,7 @@ cv_destroy(struct cv *cv)
 {
 	KASSERT(cv != NULL);
 
-	// add stuff here as needed
+	threadlist_cleanup(&cv->cv_threads);
 
 	kfree(cv->cv_name);
 	kfree(cv);
