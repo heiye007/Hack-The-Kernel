@@ -164,7 +164,7 @@ lock_create(const char *name)
 	}
 
 	spinlock_init(&lock->lock_spinlock);
-	lock -> held = 0; // create the lock with no thread holding it.
+	lock -> lk_thread = NULL; // create the lock without any thread owning it.
 
 	return lock;
 }
@@ -173,6 +173,9 @@ void
 lock_destroy(struct lock *lock)
 {
 	KASSERT(lock != NULL);
+
+	// lock should have been released before destroying the lock.
+	KASSERT(lock -> lk_thread == NULL);
 
 	spinlock_cleanup(&lock -> lock_spinlock);
 	wchan_destroy(lock -> lock_wchan);
@@ -183,36 +186,55 @@ lock_destroy(struct lock *lock)
 void
 lock_acquire(struct lock *lock)
 {
+    KASSERT(lock != NULL);
+    KASSERT(lock -> lock_wchan != NULL);
+
 	/* Call this (atomically) before waiting for a lock */
-	//HANGMAN_WAIT(&curthread->t_hangman, &lock->lk_hangman);
+	HANGMAN_WAIT(&curthread->t_hangman, &lock->lk_hangman);
 
-	// Write this
+    KASSERT(curthread->t_in_interrupt == false);
+    spinlock_acquire(&lock->lock_spinlock);
 
-	(void)lock;  // suppress warning until code gets written
+    while(lock -> lk_thread) {
+        wchan_sleep(lock->lock_wchan, &lock->lock_spinlock);
+    }
+
+    KASSERT(!(lock -> lk_thread));
+    lock -> lk_thread = curthread;
 
 	/* Call this (atomically) once the lock is acquired */
-	//HANGMAN_ACQUIRE(&curthread->t_hangman, &lock->lk_hangman);
+	HANGMAN_ACQUIRE(&curthread->t_hangman, &lock->lk_hangman);
+	spinlock_release(&lock->lock_spinlock);
 }
 
 void
 lock_release(struct lock *lock)
 {
+    KASSERT(lock != NULL);
+    KASSERT(lock -> lock_wchan != NULL);
+
 	/* Call this (atomically) when the lock is released */
-	//HANGMAN_RELEASE(&curthread->t_hangman, &lock->lk_hangman);
+	HANGMAN_RELEASE(&curthread->t_hangman, &lock->lk_hangman);
 
-	// Write this
+    spinlock_acquire(&lock->lock_spinlock);
 
-	(void)lock;  // suppress warning until code gets written
+    // only the thread holding the lock should release it.
+    if(lock_do_i_hold(lock)) {
+        lock -> lk_thread = NULL;
+        KASSERT(!(lock -> lk_thread));
+        wchan_wakeone(lock -> lock_wchan, &lock->lock_spinlock);
+    } else {
+        panic("Lock cannot be released by a thread which isn't aquiring it");
+    }
+
+    spinlock_release(&lock->lock_spinlock);
 }
 
 bool
 lock_do_i_hold(struct lock *lock)
 {
-	// Write this
-
-	(void)lock;  // suppress warning until code gets written
-
-	return true; // dummy until code gets written
+    KASSERT(lock != NULL);
+	return (lock -> lk_thread == curthread);
 }
 
 ////////////////////////////////////////////////////////////

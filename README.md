@@ -3,7 +3,10 @@
 Implementation of Synchronization primitives, System calls, Scheduler, Memory management and File system in the Educational **OS161** operating system.
 
 ## ROADMAP
-- [ ] Implementation of Sleep lock - In Progress.
+- [x] Implementation of Sleep lock.
+- [ ] Implementation of Condition variables.
+- [ ] The Whalemating Problem.
+- [ ] The Buffalo Intersection Problem.
 - [ ] Implementation of System calls.
 - [ ] Implementation of Scheduler.
 - [ ] Implementation of Virtual memory.
